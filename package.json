@@ -4,6 +4,9 @@
   "description": "MERN shopping cart app",
   "main": "server.js",
   "type": "module",
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "start": "node backend/server",
     "server": "nodemon backend/server",
@@ -24,7 +27,8 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.10.6",
     "morgan": "^1.10.0",
-    "multer": "^1.4.2"
+    "multer": "^1.4.2",
+    "react-scripts": "^5.0.1"
   },
   "devDependencies": {
     "concurrently": "^5.3.0",
